@@ -1,0 +1,49 @@
+.Book {
+  border: solid 2px #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 20em;
+  float: left;
+  font-size: 0.833em; }
+  .Book .image-container {
+    float: left;
+    display: inline-block;
+    margin: 0 2em .5em 0; }
+    .Book .image-container img {
+      float: left;
+      border-radius: 5px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      max-width: 128px; }
+  .Book h1 {
+    display: inline-block;
+    margin: 0 0 1em 0;
+    font-size: 1.2em;
+    max-width: 21em; }
+  @media (min-width: 480px) {
+    .Book {
+      font-size: 0.833em;
+      height: 19em; }
+      .Book h1 {
+        max-width: 20em; } }
+  @media (min-width: 768px) {
+    .Book {
+      font-size: 0.833em;
+      height: 22em; }
+      .Book h1 {
+        max-width: 12.5em; } }
+  @media (min-width: 992px) {
+    .Book {
+      font-size: 0.9em;
+      height: 18em; }
+      .Book h1 {
+        max-width: 19em; } }
+  @media (min-width: 1200px) {
+    .Book {
+      font-size: 1em;
+      height: 20em; }
+      .Book h1 {
+        max-width: 11em; } }
+
+/*# sourceMappingURL=Book.css */
